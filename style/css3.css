@@ -1,0 +1,360 @@
+/*
+ *  __      __   _    ____   __    _     ___
+ *  \ \    / /  / \  |  0 \ |  \  | |   | __|
+ *   \ \/\/ /  | 0 | |    / | 0 | | |_  | _|
+ *    \_/\_/   |_n_| |_|\_\ |__/  |___| |___| 2012
+ *
+ * Copyright 2012 Jesse Wardle
+ *
+ */
+
+ 
+/* WRAPPER */
+	#wrapper
+	{
+		/* CSS3 Compatibility */
+		
+			/* Rounded Corners */
+			-webkit-border-radius: 3px;
+			-webkit-background-clip: padding-box;
+			
+			   -moz-border-radius: 3px;
+			   -moz-background-clip: padding-box;
+			
+			    -ms-border-radius: 3px;
+			    -ms-background-clip: padding-box;
+			   
+			     -o-border-radius: 3px;
+			     -o-background-clip: padding-box;
+		
+					border-radius: 3px;
+					background-clip: padding-box;
+			
+			/* Box Shadows */
+			-webkit-box-shadow: 0 15px 60px 0 #000;
+			
+			   -moz-box-shadow: 0 15px 60px 0 #000;
+			   
+			    -ms-box-shadow: 0 15px 60px 0 #000;
+			   
+			     -o-box-shadow: 0 15px 60px 0 #000;
+			
+					box-shadow: 0 15px 60px 0 #000;
+	}
+
+/* HEADER */
+	#header
+	{
+		/* CSS3 Compatibility */
+		
+			/* Rounded Corners */
+			-webkit-border-top-right-radius: 2px;
+			-webkit-border-top-left-radius: 2px;
+			-webkit-background-clip: padding-box;
+			
+			   -moz-border-top-right-radius: 2px;
+			   -moz-border-top-left-radius: 2px;
+			   -moz-background-clip: padding-box;
+			   
+			    -ms-border-top-right-radius: 2px;
+			    -ms-border-top-left-radius: 2px;
+			    -ms-background-clip: padding-box;
+			
+			     -o-border-top-right-radius: 2px;
+			     -o-border-top-left-radius: 2px;
+			     -o-background-clip: padding-box;
+		
+					border-top-right-radius: 2px;
+			        border-top-left-radius: 2px;
+					background-clip: padding-box;
+	}
+
+/* NAV */
+	#nav
+	{
+		/* CSS3 Compatibility */
+			
+			/* Flex Box */
+			display: -webkit-box;
+			-webkit-box-orient: horizontal;
+			
+			display: -moz-box;
+			   -moz-box-orient: horizontal;
+			
+			display: box;
+					box-orient: horizontal;
+					
+			/* Box Shadows */
+				-webkit-box-shadow: 0 3px 10px 0 #000;
+				
+				   -moz-box-shadow: 0 3px 10px 0 #000;
+				
+				        box-shadow: 0 3px 10px 0 #000;
+			
+			/* Rounded Corners */
+			-webkit-border-radius: 3px;
+			-webkit-background-clip: padding-box;
+			
+			   -moz-border-radius: 3px;
+			   -moz-background-clip: padding-box;
+			   
+			    -ms-border-radius: 3px;
+			    -ms-background-clip: padding-box;
+			   
+			     -o-border-radius: 3px;
+			     -o-background-clip: padding-box;
+		
+					border-radius: 3px;
+					background-clip: padding-box;
+	}
+	
+	/* NAV LINKS */
+		#nav a
+		{
+			/* CSS3 Compatibility */
+			
+				/* Flex Box */
+				-webkit-box-flex: 1;
+				
+				   -moz-box-flex: 1;
+				
+						box-flex: 1;
+						
+				/* Transition */
+				-webkit-transition: all .8s ease-out;
+				
+				   -moz-transition: all .8s ease-out;
+				   
+					-ms-transition: all .8s ease-out;
+					
+					 -o-transition: all .8s ease-out;
+					 
+						transition: all .8s ease-out;
+		}
+		#nav a:hover:nth-child(1)
+		{
+			/* Rounded Corners */
+				-webkit-border-top-left-radius: 2px;
+				-webkit-border-bottom-left-radius: 2px;
+				-webkit-background-clip: padding-box;
+				
+				   -moz-border-top-left-radius: 2px;
+				   -moz-border-bottom-left-radius: 2px;
+				   -moz-background-clip: padding-box;
+				   
+				    -ms-border-top-left-radius: 2px;
+				    -ms-border-bottom-left-radius: 2px;
+				    -ms-background-clip: padding-box;
+				   
+				     -o-border-top-left-radius: 2px;
+				     -o-border-bottom-left-radius: 2px;
+				     -o-background-clip: padding-box;
+			
+						border-top-left-radius: 2px;
+						border-bottom-left-radius: 2px;
+						background-clip: padding-box;
+		}
+		#nav a:hover:nth-last-child(1)
+		{
+			/* Rounded Corners */
+				-webkit-border-top-right-radius: 2px;
+				-webkit-border-bottom-right-radius: 2px;
+				-webkit-background-clip: padding-box;
+				
+				   -moz-border-top-right-radius: 2px;
+				   -moz-border-bottom-right-radius: 2px;
+				   -moz-background-clip: padding-box;
+				   
+				    -ms-border-top-right-radius: 2px;
+				    -ms-border-bottom-right-radius: 2px;
+				    -ms-background-clip: padding-box;
+				   
+				     -o-border-top-right-radius: 2px;
+				     -o-border-bottom-right-radius: 2px;
+				     -o-background-clip: padding-box;
+			
+						border-top-right-radius: 2px;
+						border-bottom-right-radius: 2px;
+						background-clip: padding-box;
+		}
+
+/* SECTION */
+
+	#section
+	{
+		/* CSS3 Compatibility */
+		
+			/* Rounded Corners */
+				-webkit-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				-webkit-background-clip: padding-box;
+				
+				   -moz-border-radius: 3px;
+				   -moz-border-radius: 3px;
+				   -moz-background-clip: padding-box;
+				   
+				    -ms-border-radius: 3px;
+				    -ms-border-radius: 3px;
+				    -ms-background-clip: padding-box;
+				   
+				     -o-border-radius: 3px;
+				     -o-border-radius: 3px;
+				     -o-background-clip: padding-box;
+			
+						border-radius: 3px;
+						border-radius: 3px;
+						background-clip: padding-box;
+						
+			/* Transition */
+				-webkit-transition: all .5s ease-out;
+				
+				   -moz-transition: all .5s ease-out;
+				   
+					-ms-transition: all .5s ease-out;
+					
+					 -o-transition: all .5s ease-out;
+					 
+						transition: all .5s ease-out;
+	}
+	#section:hover
+	{
+		/* CSS3 Compatibility */
+		
+			/* Box Shadows */
+				-webkit-box-shadow: 0 5px 20px 0 #000;
+				
+				   -moz-box-shadow: 0 5px 15px 0 #000;
+				   
+				    -ms-box-shadow: 0 5px 15px 0 #000;
+				   
+				     -o-box-shadow: 0 5px 15px 0 #000;
+				
+						box-shadow: 0 5px 15px 0 #000;
+	}
+	
+	/* SECTION ARTICLE */
+		#section article
+		{
+			/* CSS3 Compatibility */
+			
+				/* Rounded Corners */
+				-webkit-border-radius: 3px;
+				-webkit-background-clip: padding-box;
+				
+				   -moz-border-radius: 3px;
+				   -moz-background-clip: padding-box;
+				   
+				    -ms-border-radius: 3px;
+				    -ms-background-clip: padding-box;
+				   
+				     -o-border-radius: 3px;
+				     -o-background-clip: padding-box;
+			
+						border-radius: 3px;
+						background-clip: padding-box;
+						
+				/* Box Shadows */
+				-webkit-box-shadow: 0 3px 10px 0 #000;
+				
+				   -moz-box-shadow: 0 3px 10px 0 #000;
+				   
+				    -ms-box-shadow: 0 3px 10px 0 #000;
+				   
+				     -o-box-shadow: 0 3px 10px 0 #000;
+				
+				        box-shadow: 0 3px 10px 0 #000;
+		}
+
+	/* SECTION ASIDE */
+		#section aside
+		{
+			/* CSS3 Compatibility */
+			
+				/* Rounded Corners */
+				-webkit-border-radius: 3px;
+				-webkit-background-clip: padding-box;
+				
+				   -moz-border-radius: 3px;
+				   -moz-background-clip: padding-box;
+				   
+				    -ms-border-radius: 3px;
+				    -ms-background-clip: padding-box;
+				   
+				     -o-border-radius: 3px;
+				     -o-background-clip: padding-box;
+			
+						border-radius: 3px;
+						background-clip: padding-box;
+						
+				/* Box Shadows */
+				-webkit-box-shadow: 0 3px 10px 0 #000;
+				
+				   -moz-box-shadow: 0 3px 10px 0 #000;
+				   
+				    -ms-box-shadow: 0 3px 10px 0 #000;
+				   
+				     -o-box-shadow: 0 3px 10px 0 #000;
+				
+				        box-shadow: 0 3px 10px 0 #000;
+		}
+
+/* FOOTER */
+	#footer
+	{
+		/* CSS3 Compatibility */
+		
+			/* Rounded Corners */
+			-webkit-border-bottom-right-radius: 2px;
+			-webkit-border-bottom-left-radius: 2px;
+			-webkit-background-clip: padding-box;
+			
+			   -moz-border-bottom-right-radius: 2px;
+			   -moz-border-bottom-left-radius: 2px;
+			   -moz-background-clip: padding-box;
+			   
+			    -ms-border-bottom-right-radius: 2px;
+			    -ms-border-bottom-left-radius: 2px;
+			    -ms-background-clip: padding-box;
+			   
+			     -o-border-bottom-right-radius: 2px;
+			     -o-border-bottom-left-radius: 2px;
+			     -o-background-clip: padding-box;
+		
+					border-bottom-right-radius: 2px;
+			        border-bottom-left-radius: 2px;
+					background-clip: padding-box;
+	}
+
+/* USER_PANEL */
+	#user_panel
+	{
+		/* CSS3 Compatibility */
+		
+			/* Rounded Corners */
+			-webkit-border-bottom-left-radius: 3px;
+			-webkit-border-bottom-right-radius: 3px;
+			-webkit-background-clip: padding-box;
+			
+			   -moz-border-bottom-left-radius: 3px;
+			   -moz-border-bottom-right-radius: 3px;
+			   -moz-background-clip: padding-box;
+			   
+			    -ms-border-bottom-left-radius: 3px;
+			    -ms-border-bottom-right-radius: 3px;
+			    -ms-background-clip: padding-box;
+			   
+			     -o-border-bottom-left-radius: 3px;
+			     -o-border-bottom-right-radius: 3px;
+			     -o-background-clip: padding-box;
+			
+					border-bottom-left-radius: 3px;
+					border-bottom-right-radius: 3px;
+					background-clip: padding-box;
+					
+			/* Gradient Background */
+			background-image: -webkit-linear-gradient(top, #e9e9e9, #bcbcbc);
+			background-image:    -moz-linear-gradient(top, #e9e9e9, #bcbcbc);
+			background-image:     -ms-linear-gradient(top, #e9e9e9, #bcbcbc);
+			background-image:      -o-linear-gradient(top, #e9e9e9, #bcbcbc);
+			background-image:         linear-gradient(top, #e9e9e9, #bcbcbc);
+	}

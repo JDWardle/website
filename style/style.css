@@ -1,0 +1,211 @@
+/*
+ *  __      __   _    ____   __    _     ___
+ *  \ \    / /  / \  |  0 \ |  \  | |   | __|
+ *   \ \/\/ /  | 0 | |    / | 0 | | |_  | _|
+ *    \_/\_/   |_n_| |_|\_\ |__/  |___| |___| 2012
+ *
+ * Copyright 2012 Jesse Wardle
+ *
+ */
+
+/*
+ * #424242
+ * #3299bb
+ * #e9e9e9
+ * #ff9900
+ * #bcbcbc
+ * #000000
+ * #206075
+ */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header, section, footer, aside, nav, article, hgroup, video
+{
+	display: block;
+}
+
+body
+{
+	background-color: #424242;
+	font-size: 11pt;
+	font-family: Verdana, Verdana, Geneva, sans-serif;
+	color: #424242;
+	text-align: center;
+}
+
+/* WRAPPER */
+	#wrapper
+	{
+		margin: 20px auto;
+		width: 1000px;
+		text-align: left;
+		border: 1px solid #000;
+	}
+
+/* HEADER */
+	#header
+	{
+		background-color: #3299bb;
+		color: #e9e9e9;
+		border: 1px solid #000;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		padding: 15px;
+	}
+	
+	/* HEADER H TAGS */
+	#header h1
+	{
+		font-size: 36pt;
+	}
+
+/* NAV */
+	#nav
+	{
+		background-color: #e9e9e9;
+		border: 1px solid #000;
+		text-align: center;
+		margin: 15px 15px;
+		font-size: 14pt;
+		font-weight: bold;
+		width: 970px;
+	}
+	
+	/* NAV LINK */
+	#nav a
+	{
+		display: block;
+		padding: 5px;
+		
+		color: #424242;
+		text-decoration: none;
+	}
+	
+	#nav a:hover
+	{
+		background-color: #206075;
+		color: #e9e9e9;
+	}
+
+/* SECTION */
+	#section
+	{
+		width: 990px;
+		margin: 0 0 10px 4px;
+		padding: 0 0 10px 0;
+		float: left;
+		border: 1px solid rgba(0,0,0, 0.0);
+	}
+	
+	#section:hover
+	{
+		border: 1px solid #000;
+		background-color: #206075;
+	}
+	
+	#signed
+	{
+		text-align: right;
+		margin: 10px 5px;
+	}
+	
+	/* SECTION ARTICLE */
+	#section article
+	{
+		background-color: #e9e9e9;
+		color: #424242;
+		width: 681px;
+		border: 1px solid #000;
+		margin: 20px 10px;
+		padding: 20px;
+		float: left;
+	}
+	
+	#section article:nth-child(1)
+	{
+		margin: 10px 10px 0 10px;
+	}
+		
+	/* SECTION H TAGS */
+	#section h1
+	{
+		font-size: 21pt;
+		color: #3299bb;
+	}
+	
+	#section h2
+	{
+		font-size: 12pt;
+		color: #424242;
+	}
+	
+	#section hgroup
+	{
+		margin: 0 0 15px 0;
+		padding: 0 0 5px 0;
+		border-bottom: 1px solid #3299bb;
+	}
+	
+	/* SECTION ASIDE */
+	#section aside
+	{
+		background-color: #424242;
+		color: #e9e9e9;
+		font-size: 10pt;
+		border: 1px solid #000;
+		margin: 10px 10px;
+		padding: 5px 10px;
+		width: 205px;
+		float: left;
+	}
+	
+	#section aside p
+	{
+		padding: 3px;
+	}
+	
+	#section aside h1
+	{
+		color: #ff9900;
+		font-size: 14pt;
+	}
+		
+/* FOOTER */
+	#footer
+	{
+		clear: both;
+		background-color: #3299bb;
+		color: #e9e9e9;
+		padding: 10px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+/* USER_PANEL */
+	#user_panel
+	{
+		background-color: #e9e9e9;
+		color: #424242;
+		width: 1050px;
+		margin: 0 auto;
+		border: 1px solid #000;
+		border-top: 0;
+		padding: 5px 10px;
+		font-size: 10pt;
+	}
+	
+	#user_panel #user
+	{
+		text-align: right;
+	}
+	
+	#user_panel #user_status
+	{
+		text-align: right;
+		font-size: 9pt;
+	}
